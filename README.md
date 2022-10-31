@@ -1,7 +1,12 @@
-# HW_15_DemoQA_Jenkins
-### Работа с Jenkins
+# HW_15_Selenide #1
+### Работа с Selenide
 #### ДЗ:
-#### Взять свой код для http://demoqa.com/automation-practice-form
-Добавить аттачи для Allure – скриншот, page source, console.log и видео 
+#### Разработать следующий автотест:
 
-Cделать сборку в Jenkins
+- Открыть страницу Selenide в Github
+
+- Перейти в раздел Wiki проекта
+
+- Убедиться, что в списке страниц (Pages) есть страница SoftAssertions
+
+- Открытъ страницу SoftAssertions, проверить что внутри есть пример кода для JUnit5
