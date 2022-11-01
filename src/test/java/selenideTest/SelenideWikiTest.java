@@ -1,14 +1,14 @@
-package selenideTests;
+package selenideTest;
 
+import base.BaseTest;
 import org.junit.jupiter.api.Test;
-
 import static com.codeborne.selenide.Condition.partialText;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class SelenideWikiTest extends BaseTest{
+public class SelenideWikiTest extends BaseTest {
     @Test
     void searchSelenideInGitHub(){
         open(baseUrl);
@@ -23,3 +23,4 @@ public class SelenideWikiTest extends BaseTest{
     }
 
 }
+

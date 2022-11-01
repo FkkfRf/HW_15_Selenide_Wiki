@@ -1,7 +1,7 @@
 package otherTests;
 
 import org.junit.jupiter.api.Test;
-import selenideTests.BaseTest;
+import base.BaseTest;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
