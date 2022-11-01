@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82e3ecc-52d3-415e-812e-742674444a2d" name="Changes" comment="gradle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenideTests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenideTests/SelenideWikiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e82e3ecc-52d3-415e-812e-742674444a2d" name="Changes" comment="search Selenide in Git">
+      <change afterPath="$PROJECT_DIR$/src/test/java/otherTests/ContributerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenideTests/SelenideWikiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenideTests/SelenideWikiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/QA_Projects/HW_15_ParmeteriziedTest"
+    "last_opened_file_path": "C:/QA_Projects/HW_15_DemoQA_PracticeForm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,7 +53,76 @@
       <recent name="selenide" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.SelenideWikiTest.searchSelenideInGitHub">
+    <configuration name="ContributerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;selenideTests.ContributerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContributerTest.andreiSolntsevShouldBeTheFirstContributer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;selenideTests.ContributerTest.andreiSolntsevShouldBeTheFirstContributer&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SelenideWikiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;selenideTests.SelenideWikiTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SelenideWikiTest.searchSelenideInGitHub" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -81,6 +149,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.SelenideWikiTest.searchSelenideInGitHub" />
+        <item itemvalue="Gradle.SelenideWikiTest" />
+        <item itemvalue="Gradle.ContributerTest" />
+        <item itemvalue="Gradle.ContributerTest.andreiSolntsevShouldBeTheFirstContributer" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667254518555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="search Selenide in Git">
+      <created>1667298727036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667298727036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle" />
+    <MESSAGE value="search Selenide in Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="search Selenide in Git" />
   </component>
 </project>
